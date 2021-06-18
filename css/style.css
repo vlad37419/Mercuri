@@ -95,6 +95,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-size: 20px;
 	line-height: 24px;
 	color: #000000;
+	transition: all 0.8s ease 0s;
+}
+
+.header__button a:hover {
+	background: rgba(249, 192, 106, 0.6);
 }
 
 /* Адаптив шапки */
@@ -603,6 +608,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-size: 20px;
 	line-height: 24px;
 	color: #000000;
+	transition: all 0.8s ease 0s;
+}
+
+.form__button button:hover {
+	background: rgba(249, 192, 106, 0.6);
 }
 
 /* Адаптив формы */
