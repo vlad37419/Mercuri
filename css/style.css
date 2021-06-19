@@ -173,10 +173,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 @media (max-width: 790px) {
-	.header__background {
-		min-height: 450px;
-	}
-
 	.header__background::before {
 		content: '';
 		background-color: rgba(0, 0, 0, 0.2);
